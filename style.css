@@ -1,14 +1,14 @@
 body{
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Courier', Courier, monospace;
 }
 
 a{
-    color: #444444;
+    color: #333333;
 }
 
 .nav-link:hover{
     text-decoration: underline;
-    color: #444444;
+    color: #333333;
 }
 
 .active{
@@ -25,7 +25,7 @@ a{
 }
 
 .projectItems a{
-    color: #888888;
+    color: #777777;
 }
 
 .burger{
