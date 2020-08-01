@@ -1,0 +1,57 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: #444444;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #444444;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.nav-link{
+    padding: 0.2em;
+}
+
+.projectItems{
+    margin-left: 1rem;
+  
+}
+
+.projectItems a{
+    color: #888888;
+}
+
+.burger{
+    display: none;
+ }
+
+
+ /* hover on thumbnail to highlight nav */
+
+
+
+
+
+@media (max-width:992px){
+ .projectList{
+     display: none;
+ }
+
+ .burger{
+    display: block;
+ }
+}
+
+    
+.bg-info{
+    min-height: 1000px;
+}
+
+
