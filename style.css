@@ -1,6 +1,6 @@
 body{
    font-family:'Courier New', Courier, monospace;
-   font-size: 1.2rem;
+  
 }
 
 a{
@@ -27,6 +27,10 @@ a{
 
 .projectItems a{
     color: #777777;
+}
+
+.projectItems .active{
+    color: #333333;
 }
 
 .burger{
