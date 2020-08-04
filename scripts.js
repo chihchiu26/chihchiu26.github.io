@@ -69,3 +69,19 @@ document.getElementsByClassName('img_hover8')[0].onmouseover = function () {
 document.getElementsByClassName('img_hover8')[0].onmouseout = function () {
     document.getElementsByClassName('nav_highlight8')[0].style = ""
 }
+
+
+document.getElementsByClassName('img_hover9')[0].onmouseover = function () {
+    document.getElementsByClassName('nav_highlight9')[0].style = "color: #333333 ; text-decoration:underline"
+}
+document.getElementsByClassName('img_hover9')[0].onmouseout = function () {
+    document.getElementsByClassName('nav_highlight9')[0].style = ""
+}
+
+
+document.getElementsByClassName('img_hover10')[0].onmouseover = function () {
+    document.getElementsByClassName('nav_highlight10')[0].style = "color: #333333 ; text-decoration:underline"
+}
+document.getElementsByClassName('img_hover10')[0].onmouseout = function () {
+    document.getElementsByClassName('nav_highlight10')[0].style = ""
+}
