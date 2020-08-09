@@ -90,6 +90,13 @@ a{
  .burger{
     display: block;
  }
+/* hover to active carousel controls */
+.carousel .carousel-control-prev { visibility: visible; }
+.carousel:hover .carousel-control-prev { visibility: visible; }
+.carousel .carousel-control-next { visibility: visible; }
+.carousel:hover .carousel-control-next { visibility: visible; }
+.carousel .carousel-indicators { visibility: visible; }
+.carousel:hover .carousel-indicators { visibility: visible; }
 
 
 
