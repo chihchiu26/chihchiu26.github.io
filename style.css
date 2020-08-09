@@ -37,7 +37,9 @@ a{
     display: none;
  }
 
-
+ .projectList{
+    display: visible;
+ }
 
 /* hover to active carousel controls */
 .carousel .carousel-control-prev { visibility: hidden; }
