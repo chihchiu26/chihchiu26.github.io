@@ -5,7 +5,11 @@ body{
 }
 
 a, a:hover{
-    color: #333333;
+    color: #333333;       
+}
+
+.a-link{
+    text-decoration: underline;
 }
 
 .nav-link:hover{
@@ -103,6 +107,10 @@ a, a:hover{
 
 
 
+}
+
+#navbar{
+    transition: top 0.3s;
 }
 
 
