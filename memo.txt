@@ -21,3 +21,7 @@ Handbag with Pocket
 Dr. Arrow
 Sticky Light
 Air Pollution as Evolution
+
+
+thumbnail short side: 350px 72dpi  (square 400?)
+                img max:1500px-->
