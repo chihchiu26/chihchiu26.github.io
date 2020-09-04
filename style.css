@@ -46,38 +46,47 @@ a, a:hover{
     display: visible;
  }
 
-/* hover to active carousel controls */
+/* hover to active carousel controls
 .carousel .carousel-control-prev { visibility: hidden; }
 .carousel:hover .carousel-control-prev { visibility: visible; }
 .carousel .carousel-control-next { visibility: hidden; }
 .carousel:hover .carousel-control-next { visibility: visible; }
 .carousel .carousel-indicators { visibility: hidden; }
-.carousel:hover .carousel-indicators { visibility: visible; }
+.carousel:hover .carousel-indicators { visibility: visible; } */
 
+.carousel-item img {
+    width: auto !important;
+    max-height: 800px;
+}
 
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' stroke='%23777777' stroke-width='0.2' stroke-linejoin='round'  viewBox='0 -1 8 10' %3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' stroke='%23777777' stroke-width='0.3' stroke-linejoin='round'  viewBox='0 -1 8 10' %3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
     
    }
    
+
+
    .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' stroke='%23777777' stroke-width='0.2' stroke-linejoin='round' viewBox='0 -1 8 10'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' stroke='%23777777' stroke-width='0.3' stroke-linejoin='round' viewBox='0 -1 8 10'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
    }
+
+
+
 
 
    .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 2rem !important;
     width: 2rem !important;}
 
-    /* indicator color */
-   /* .carousel-indicators .active{
+    indicator color */
+   .carousel-indicators .active{
     border: 0.1ex solid #777777;
 }
 
     .carousel-indicators li{
     border: 0.1ex solid #777777;
-} */
+}
 
 
 /* 
@@ -105,7 +114,14 @@ a, a:hover{
 .carousel .carousel-indicators { visibility: visible; }
 .carousel:hover .carousel-indicators { visibility: visible; }
 
-
+/* .carousel-item img{
+    max-height: 184px;
+    width: auto !important;
+} */
+.carousel-item img {
+    width: auto !important;
+    max-height: 600px;
+}
 
 }
 
