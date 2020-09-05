@@ -4,6 +4,7 @@ body{
   
 }
 
+
 a, a:hover{
     color: #333333;       
 }
@@ -57,6 +58,7 @@ a, a:hover{
 .carousel-item img {
     width: auto !important;
     max-height: 900px;
+    margin: 0px auto;
 }
 
 
