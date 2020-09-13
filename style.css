@@ -57,7 +57,7 @@ a, a:hover{
 
 .carousel-item img {
     width: auto !important;
-    max-height: 900px;
+    max-height: 800px;
     margin: 0px auto;
 }
 
@@ -78,16 +78,16 @@ a, a:hover{
 
 
    .carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 2rem !important;
-    width: 2rem !important;}
+    height: 3.2rem !important;
+    width: 3.2rem !important;}
 
     indicator color */
    .carousel-indicators .active{
-    border: 0.1ex solid #777777;
+    border: 0.2ex solid #777777;
 }
 
     .carousel-indicators li{
-    border: 0.1ex solid #777777;
+    border: 0.2ex solid #777777;
 }
 
 
@@ -125,7 +125,14 @@ a, a:hover{
     max-height: 600px;
 }
 
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 2rem !important;
+    width: 2rem !important;}
+
 }
+
+
 
 #navbar{
     transition: top 0.3s;
