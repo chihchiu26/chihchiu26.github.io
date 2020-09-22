@@ -25,3 +25,6 @@ Air Pollution as Evolution
 
 thumbnail short side: 350px 72dpi  (square 400?)
                 img max:1500px-->
+
+
+archives thumbnail: 250px square
