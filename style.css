@@ -128,7 +128,12 @@ a, a:hover{
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 2rem !important;
-    width: 2rem !important;}
+    width: 2rem !important;
+ }
+
+.archives{
+    max-width: 158px;
+}
 
 }
 
