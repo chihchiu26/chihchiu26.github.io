@@ -1,8 +1,10 @@
 $(document).ready(function () {
+  $("#includedContent").load("projectList.html"); 
     $('.burgermenu').on('click', function () {
         $('.projectList').slideToggle('fast');
     });
 
+    
     var texts = document.querySelectorAll('.projectItems a');
     [].slice.call(document.querySelectorAll('.thumbnailGrid a')).forEach(function (a, i){
         a.onmouseover = function () {
@@ -10,7 +12,7 @@ $(document).ready(function () {
         }
         a.onmouseout = function () {
             texts[i].style = ""
-        }
+        }        
     })
 
 });
@@ -30,3 +32,4 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 }
+
